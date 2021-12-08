@@ -27,9 +27,13 @@
 
 .logo {
     position: relative;
-    max-width: 377px;
+    max-width: 477px;
     width: 100%;
-    padding: 0 50px;
+    padding: 0 100px;
+
+    @media (max-width: 477px) {
+        padding: 0 22vw;
+    }
 
     &__img {
         display: block;
@@ -43,8 +47,8 @@
     font-family: 'Open Sans', sans-serif;
     line-height: 25px;
 
-    @media (max-width: 380px) {
-        font-size: 5vw;
+    @media (max-width: 477px) {
+        font-size: 4vw;
     }
 }
 .copy {
@@ -55,7 +59,7 @@
     font-family: 'Open Sans', sans-serif;
     line-height: 25px;
 
-    @media (max-width: 380px) {
-        font-size: 5vw;
+    @media (max-width: 477px) {
+        font-size: 4vw;
     }
 }

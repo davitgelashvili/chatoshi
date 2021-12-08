@@ -37,9 +37,15 @@
 
 .logo {
   position: relative;
-  max-width: 377px;
+  max-width: 477px;
   width: 100%;
-  padding: 0 50px;
+  padding: 0 100px;
+}
+
+@media (max-width: 477px) {
+  .logo {
+    padding: 0 22vw;
+  }
 }
 
 .logo__img {
@@ -54,9 +60,9 @@
   line-height: 25px;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 477px) {
   .coming {
-    font-size: 5vw;
+    font-size: 4vw;
   }
 }
 
@@ -69,9 +75,9 @@
   line-height: 25px;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 477px) {
   .copy {
-    font-size: 5vw;
+    font-size: 4vw;
   }
 }
 /*# sourceMappingURL=main.css.map */
