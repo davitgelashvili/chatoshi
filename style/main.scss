@@ -33,27 +33,6 @@
     display: flex;
     justify-content: flex-end;
 
-    p {
-        position: absolute;
-        top: 0;
-        margin-right: -35px;
-        color: #545454;
-        font-size: 18px;
-        font-family: 'Open Sans', sans-serif;
-        line-height: 25px;
-
-        @media (max-width: 577px) {
-            font-size: 3vw;
-            margin-right: -6vw;
-        }
-
-        @media (max-width: 1024px) {
-            @media (orientation: landscape) {
-                font-size: 2vw;
-            }
-        }
-    }
-
     @media (max-width: 577px) {
         max-width: 100%;
         padding: 0 27vw;
