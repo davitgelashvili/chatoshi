@@ -40,6 +40,35 @@
   max-width: 477px;
   width: 100%;
   padding: 0 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.logo p {
+  position: absolute;
+  top: 0;
+  margin-right: -35px;
+  color: #545454;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 25px;
+}
+
+@media (max-width: 577px) {
+  .logo p {
+    font-size: 3vw;
+    margin-right: -6vw;
+  }
+}
+
+@media (orientation: landscape) {
+  .logo p {
+    font-size: 2vw;
+  }
 }
 
 @media (max-width: 577px) {
@@ -49,12 +78,18 @@
   }
 }
 
+@media (orientation: landscape) {
+  .logo {
+    max-width: 100%;
+    padding: 0 35vw;
+  }
+}
+
 .logo__img {
   display: block;
 }
 
 .coming {
-  margin-top: 10px;
   color: #545454;
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
@@ -67,9 +102,15 @@
   }
 }
 
+@media (orientation: landscape) {
+  .coming {
+    font-size: 2vw;
+  }
+}
+
 .copy {
   position: absolute;
-  bottom: 30px;
+  bottom: 50px;
   color: #545454;
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
@@ -79,6 +120,13 @@
 @media (max-width: 577px) {
   .copy {
     font-size: 3vw;
+    bottom: 10px;
+  }
+}
+
+@media (orientation: landscape) {
+  .copy {
+    display: none;
   }
 }
 /*# sourceMappingURL=main.css.map */
