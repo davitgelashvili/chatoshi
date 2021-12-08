@@ -54,6 +54,12 @@
   line-height: 25px;
 }
 
+@media (max-width: 380px) {
+  .coming {
+    font-size: 5vw;
+  }
+}
+
 .copy {
   position: absolute;
   bottom: 30px;
@@ -61,5 +67,11 @@
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
   line-height: 25px;
+}
+
+@media (max-width: 380px) {
+  .copy {
+    font-size: 5vw;
+  }
 }
 /*# sourceMappingURL=main.css.map */
