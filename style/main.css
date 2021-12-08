@@ -37,9 +37,9 @@
 
 .logo {
   position: relative;
-  max-width: 277px;
+  max-width: 377px;
   width: 100%;
-  margin: 0 50px;
+  padding: 0 50px;
 }
 
 .logo__img {
@@ -56,7 +56,7 @@
 
 .copy {
   position: absolute;
-  bottom: 58px;
+  bottom: 30px;
   color: #545454;
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
