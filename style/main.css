@@ -42,9 +42,10 @@
   padding: 0 100px;
 }
 
-@media (max-width: 477px) {
+@media (max-width: 577px) {
   .logo {
-    padding: 0 22vw;
+    max-width: 100%;
+    padding: 0 27vw;
   }
 }
 
@@ -60,9 +61,9 @@
   line-height: 25px;
 }
 
-@media (max-width: 477px) {
+@media (max-width: 577px) {
   .coming {
-    font-size: 4vw;
+    font-size: 3vw;
   }
 }
 
@@ -75,9 +76,9 @@
   line-height: 25px;
 }
 
-@media (max-width: 477px) {
+@media (max-width: 577px) {
   .copy {
-    font-size: 4vw;
+    font-size: 3vw;
   }
 }
 /*# sourceMappingURL=main.css.map */

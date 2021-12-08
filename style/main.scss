@@ -31,8 +31,9 @@
     width: 100%;
     padding: 0 100px;
 
-    @media (max-width: 477px) {
-        padding: 0 22vw;
+    @media (max-width: 577px) {
+        max-width: 100%;
+        padding: 0 27vw;
     }
 
     &__img {
@@ -47,8 +48,8 @@
     font-family: 'Open Sans', sans-serif;
     line-height: 25px;
 
-    @media (max-width: 477px) {
-        font-size: 4vw;
+    @media (max-width: 577px) {
+        font-size: 3vw;
     }
 }
 .copy {
@@ -59,7 +60,7 @@
     font-family: 'Open Sans', sans-serif;
     line-height: 25px;
 
-    @media (max-width: 477px) {
-        font-size: 4vw;
+    @media (max-width: 577px) {
+        font-size: 3vw;
     }
 }
