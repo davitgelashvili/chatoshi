@@ -46,9 +46,11 @@
             font-size: 3vw;
             margin-right: -6vw;
         }
-    
-        @media (orientation: landscape) {
-            font-size: 2vw;
+
+        @media (max-width: 1024px) {
+            @media (orientation: landscape) {
+                font-size: 2vw;
+            }
         }
     }
 
@@ -57,9 +59,11 @@
         padding: 0 27vw;
     }
 
-    @media (orientation: landscape) {
-        max-width: 100%;
-        padding: 0 35vw;
+    @media (max-width: 1024px) {    
+        @media (orientation: landscape) {
+            max-width: 100%;
+            padding: 0 35vw;
+        }
     }
 
     &__img {
@@ -77,8 +81,10 @@
         font-size: 3vw;
     }
 
-    @media (orientation: landscape) {
-        font-size: 2vw;
+    @media (max-width: 1024px) {
+        @media (orientation: landscape) {
+            font-size: 2vw;
+        }
     }
 }
 .copy {
@@ -94,7 +100,10 @@
         bottom: 10px;
     }
 
-    @media (orientation: landscape) {
-        display: none;
+    @media (max-width: 1024px) {
+        @media (orientation: landscape) {
+            display: none;
+        }   
     }
+
 }

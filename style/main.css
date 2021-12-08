@@ -65,7 +65,7 @@
   }
 }
 
-@media (orientation: landscape) {
+@media (max-width: 1024px) and (orientation: landscape) {
   .logo p {
     font-size: 2vw;
   }
@@ -78,7 +78,7 @@
   }
 }
 
-@media (orientation: landscape) {
+@media (max-width: 1024px) and (orientation: landscape) {
   .logo {
     max-width: 100%;
     padding: 0 35vw;
@@ -102,7 +102,7 @@
   }
 }
 
-@media (orientation: landscape) {
+@media (max-width: 1024px) and (orientation: landscape) {
   .coming {
     font-size: 2vw;
   }
@@ -124,7 +124,7 @@
   }
 }
 
-@media (orientation: landscape) {
+@media (max-width: 1024px) and (orientation: landscape) {
   .copy {
     display: none;
   }
