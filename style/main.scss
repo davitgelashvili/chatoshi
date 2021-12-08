@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.logo {
+    position: relative;
+    max-width: 277px;
+    width: 100%;
+    margin: 0 50px;
+
+    &__img {
+        display: block;
+    }
+}
+
+.coming {
+    margin-top: 10px;
+    color: #545454;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 25px;
+}
+.copy {
+    position: absolute;
+    bottom: 58px;
+    color: #545454;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 25px;
+}
