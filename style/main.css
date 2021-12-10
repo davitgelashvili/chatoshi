@@ -3,6 +3,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  overflow: hidden;
 }
 
 #particles-js {
@@ -49,6 +50,7 @@
   max-width: 477px;
   width: 100%;
   padding: 0 100px;
+  margin-left: 40px;
 }
 
 @media (max-width: 577px) {
@@ -58,7 +60,7 @@
   }
 }
 
-@media (max-width: 1024px) and (orientation: landscape) {
+@media (max-width: 900px) and (orientation: landscape) {
   .logo {
     max-width: 100%;
     padding: 0 35vw;
