@@ -33,9 +33,16 @@
     justify-content: center;
     flex-direction: column;
     z-index: 1;
+}
+
+.blur {
     -webkit-backdrop-filter: blur(3px);
-		backdrop-filter: blur(3px);
-		background-color: rgba(#fff, .1); 
+    backdrop-filter: blur(3px);
+    background-color: rgba(#fff, .1); 
+}
+
+.opacity {
+    opacity: .5;
 }
 
 .logo {
