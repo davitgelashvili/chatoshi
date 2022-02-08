@@ -101,9 +101,9 @@
 
 .copy {
   position: absolute;
-  bottom: 50px;
+  bottom: 25px;
   color: #545454;
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   line-height: 25px;
 }
