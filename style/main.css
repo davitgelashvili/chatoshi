@@ -101,16 +101,16 @@
 
 .copy {
   position: absolute;
-  bottom: 25px;
+  bottom: 20px;
   color: #545454;
-  font-size: 16px;
+  font-size: 12px;
   font-family: 'Open Sans', sans-serif;
   line-height: 25px;
 }
 
 @media (max-width: 577px) {
   .copy {
-    font-size: 3vw;
+    font-size: .6rem;
     bottom: 10px;
   }
 }
